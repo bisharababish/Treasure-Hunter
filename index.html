@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treasure Hunter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Treasure Hunter</h1>
+    <p>Navigate the maze, collect treasures, and avoid traps! Use arrow keys to move.</p>
+    <div id="stats">
+      <div id="timer">Time: 60</div>
+      <div id="score">Treasures: 0</div>
+      <div id="level">Level: 1</div>
+    </div>
+    <div id="maze"></div>
+    <div id="game-over">
+      <h1>Game Over!</h1>
+      <p>You reached Level <span id="final-level">1</span> and found <span id="final-treasures">0</span> treasures!</p>
+      <button id="restart">Restart</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
